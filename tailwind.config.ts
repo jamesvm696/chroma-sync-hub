@@ -52,16 +52,19 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
+				platform: {
+					amazon: 'hsl(var(--platform-amazon))',
+					shopify: 'hsl(var(--platform-shopify))',
+					ebay: 'hsl(var(--platform-ebay))',
+					etsy: 'hsl(var(--platform-etsy))',
+					facebook: 'hsl(var(--platform-facebook))',
+					google: 'hsl(var(--platform-google))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-card': 'var(--gradient-card)',
+				'gradient-mesh': 'var(--gradient-mesh)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
